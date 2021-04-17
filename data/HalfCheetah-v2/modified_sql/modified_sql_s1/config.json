@@ -1,0 +1,47 @@
+{
+    "ac_kwargs":	{
+        "hidden_sizes":	[
+            64,
+            64
+        ]
+    },
+    "batch_size":	64,
+    "device":	"cpu",
+    "entropy_coef":	0.02,
+    "env_fn":	"<function <lambda> at 0x7ff747fe5040>",
+    "env_name":	"HalfCheetah-v2",
+    "epochs":	1000,
+    "exp_name":	"modified_sql",
+    "gamma":	0.99,
+    "logger":	{
+        "<utils.logx.EpochLogger object at 0x7ff747fe1c40>":	{
+            "epoch_dict":	{},
+            "exp_name":	"modified_sql",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/Users/yihaosun/Codes/PythonProjects/RL/\u6bd5\u8bbe/data/HalfCheetah-v2/modified_sql/modified_sql_s1",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/Users/yihaosun/Codes/PythonProjects/RL/\u6bd5\u8bbe/data/HalfCheetah-v2/modified_sql/modified_sql_s1/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"modified_sql",
+        "output_dir":	"/Users/yihaosun/Codes/PythonProjects/RL/\u6bd5\u8bbe/data/HalfCheetah-v2/modified_sql/modified_sql_s1"
+    },
+    "lr":	0.0003,
+    "max_ep_len":	1000,
+    "num_test_episodes":	10,
+    "polyak":	0.995,
+    "replay_size":	1000000,
+    "save_freq":	10,
+    "seed":	1,
+    "start_steps":	10000,
+    "steps_per_epoch":	1000,
+    "update_after":	10000,
+    "update_every":	1,
+    "value_coef":	0.5
+}
